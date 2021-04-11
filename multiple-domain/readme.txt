@@ -42,11 +42,11 @@ Follow the steps below to install the plugin:
 
 = How can I help the plugin development? =
 
-Feel free to open a [pull request](https://github.com/straube/multiple-domain/pulls) to address any of the
-[issues](https://github.com/straube/multiple-domain/issues) reported by the plugin users. In case you have questions
+Feel free to open a [pull request](https://github.com/goINPUT-IT-Solutions/multiple-domain/pulls) to address any of the
+[issues](https://github.com/goINPUT-IT-Solutions/multiple-domain/issues) reported by the plugin users. In case you have questions
 on how to fix or the best approach, start a discussion on the appropriate thread.
 
-If you want to add a new feature, please [open an issue](https://github.com/straube/multiple-domain/issues/new)
+If you want to add a new feature, please [open an issue](https://github.com/goINPUT-IT-Solutions/multiple-domain/issues/new)
 explaining the feature and how it would help the users before start writing your code.
 
 **Donations**
