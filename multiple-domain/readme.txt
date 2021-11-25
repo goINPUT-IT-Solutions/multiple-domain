@@ -1,9 +1,9 @@
 === Multiple Domain ===
-Contributors: GustavoStraube, cyberaleks, jffaria
+Contributors: sirjavik, mrelliwood, goinput, GustavoStraube, cyberaleks, jffaria
 Tags: multiple, domains, redirect
 Requires at least: 4.0
-Tested up to: 5.5
-Stable tag: trunk
+Tested up to: 5.7
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,6 +11,8 @@ This plugin allows you to have multiple domains in a single Wordpress installati
 domain.
 
 == Description ==
+
+Important: This plugin has a new maintainer. So the plugin will now be active developed again, and it's now part of [goINPUT](https://goinput.de).
 
 Multiple Domain allows you having more than one domain in a single WordPress installation. This plugin doesn't support
 more than one theme or advanced customizations for each domain. It's only intended to enable constant navigation under
@@ -40,17 +42,17 @@ Follow the steps below to install the plugin:
 
 = How can I help the plugin development? =
 
-Feel free to open a [pull request](https://github.com/straube/multiple-domain/pulls) to address any of the
-[issues](https://github.com/straube/multiple-domain/issues) reported by the plugin users. In case you have questions
+Feel free to open a [pull request](https://github.com/goINPUT-IT-Solutions/multiple-domain/pulls) to address any of the
+[issues](https://github.com/goINPUT-IT-Solutions/multiple-domain/issues) reported by the plugin users. In case you have questions
 on how to fix or the best approach, start a discussion on the appropriate thread.
 
-If you want to add a new feature, please [open an issue](https://github.com/straube/multiple-domain/issues/new)
+If you want to add a new feature, please [open an issue](https://github.com/goINPUT-IT-Solutions/multiple-domain/issues/new)
 explaining the feature and how it would help the users before start writing your code.
 
 **Donations**
 
 If you find this plugin helpful, you can support the work involved buying me a coffee, beer or a Playstation 4 game.
-You can send donations over PayPal to gustavo.straube@gmail.com.
+You can send donations over PayPal to paypal@goinput.de.
 
 = Does this plugin set extra domains within my host? =
 
@@ -73,8 +75,8 @@ are now deprecated. They still available for backcompat but will be removed in f
 
 = Can I create a custom access restriction logic for each domain? =
 
-Yes. You can use the `multiple_domain_redirect` action and `multiple_domain_redirect_disable` filter do that. Please
-check https://github.com/straube/multiple-domain/issues/2 for an example on how to use both.
+Yes. You can use the `multiple_domain_redirect` action to do that. Please check
+https://github.com/straube/multiple-domain/issues/2 for an example on how to do that.
 
 = Can I get the language associated with the current domain? =
 
@@ -118,6 +120,10 @@ and your page will be redirected. In this case, there are two ways to solve this
 == Screenshots ==
 
 == Changelog ==
+
+= 1.0.7 =
+* Changed the author to the new one.
+* Tested suport for WP 5.7
 
 = 1.0.6 =
 
