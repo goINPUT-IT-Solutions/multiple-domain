@@ -272,6 +272,7 @@ class MultipleDomain
     private function hookShortcodes()
     {
         add_shortcode('multiple_domain', [ $this, 'shortcode' ]);
+        add_shortcode('multiple_domain_show_content', [ $this, 'shortcodeShowContent' ]);
     }
 
     //
@@ -684,6 +685,27 @@ class MultipleDomain
     public function shortcode()
     {
         return $this->domain;
+    }
+
+    /**
+     * This shortcode show content if current domain matched with domain attribute.
+     *
+     * @return string The $content if domain matched.
+     * @since  1.0.6
+     */
+    public function shortcodeShowContent($atts, $content)
+    {
+        $default_atts = array(
+            'domain' => ''
+        );
+
+        $params = shortcode_atts( $default_atts, $atts );
+
+        if( $params['domain'] == $this->domain ) {
+            return $content;
+        }
+
+        return '';
     }
 
     /**

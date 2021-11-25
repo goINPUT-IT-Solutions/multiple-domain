@@ -1,5 +1,9 @@
 # Multiple Domain
 
+## Support SLA and Next releases
+
+**MULTIPLE DOMAIN IS NOW BEING MAINTAINED BY [goINPUT](https://goinput.de/). THE SOURCE CODE NOW LIVES IN WORDPRESS' SUBVERSION. MORE DETAILS CAN BE FOUND ON THE [OFFICIAL PLUGIN PAGE](https://wordpress.org/plugins/multiple-domain/).**
+
 ## About
 
 [![Build Status](https://travis-ci.com/straube/multiple-domain.svg?branch=master)](https://travis-ci.com/straube/multiple-domain)
